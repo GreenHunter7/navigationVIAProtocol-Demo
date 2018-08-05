@@ -14,6 +14,8 @@
 		A18B4300211728A2004BBA64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B42FE211728A2004BBA64 /* LaunchScreen.storyboard */; };
 		A18B430B211728A2004BBA64 /* navigationVIAProtocol_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B430A211728A2004BBA64 /* navigationVIAProtocol_DemoTests.swift */; };
 		A18B4316211728A2004BBA64 /* navigationVIAProtocol_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B4315211728A2004BBA64 /* navigationVIAProtocol_DemoUITests.swift */; };
+		A18B432421172CC1004BBA64 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B432321172CC1004BBA64 /* FirstViewController.swift */; };
+		A18B432621172EA5004BBA64 /* InstanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B432521172EA5004BBA64 /* InstanceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A18B4311211728A2004BBA64 /* navigationVIAProtocol-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "navigationVIAProtocol-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18B4315211728A2004BBA64 /* navigationVIAProtocol_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationVIAProtocol_DemoUITests.swift; sourceTree = "<group>"; };
 		A18B4317211728A2004BBA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18B432321172CC1004BBA64 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A18B432521172EA5004BBA64 /* InstanceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				A18B42F5211728A1004BBA64 /* AppDelegate.swift */,
 				A18B42F7211728A1004BBA64 /* ViewController.swift */,
+				A18B432321172CC1004BBA64 /* FirstViewController.swift */,
+				A18B432521172EA5004BBA64 /* InstanceProtocol.swift */,
 				A18B42F9211728A1004BBA64 /* Main.storyboard */,
 				A18B42FC211728A2004BBA64 /* Assets.xcassets */,
 				A18B42FE211728A2004BBA64 /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18B432421172CC1004BBA64 /* FirstViewController.swift in Sources */,
+				A18B432621172EA5004BBA64 /* InstanceProtocol.swift in Sources */,
 				A18B42F8211728A1004BBA64 /* ViewController.swift in Sources */,
 				A18B42F6211728A1004BBA64 /* AppDelegate.swift in Sources */,
 			);

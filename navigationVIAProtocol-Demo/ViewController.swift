@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -19,7 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func goToFirstViewController(_ sender: UIButton){
+        
+        let firstVC = FirstViewController.instanceOfViewController()
+        self.navigationController?.pushViewController(firstVC, animated: true)
+    }
 
 }
-
